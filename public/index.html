@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/dist/style.css" />
+    <title>Tailwindcss Portofolio</title>
+  </head>
+  <body class="font-Inter bg-slate-800">
+
+    <!-- Navbar Section -->
+    <nav class="container flex items-center py-6">
+      <div class="font-semibold text-yellow-500 uppercase hover:cursor-pointer">Afriandy</div>
+      <ul class="hidden sm:flex flex-1 justify-end items-center uppercase text-white space-x-5">
+        <li class="cursor-pointer hover:bg-yellow-500 py-2 px-2 transition duration-300 ease-in-out">Home</li>
+        <li class="cursor-pointer hover:bg-yellow-500 py-2 px-2 transition duration-300 ease-in-out">About Me</li>
+        <li class="cursor-pointer hover:bg-yellow-500 py-2 px-2 transition duration-300 ease-in-out">Services</li>
+        <li class="cursor-pointer hover:bg-yellow-500 py-2 px-2 transition duration-300 ease-in-out">Work</li>
+        <li class="cursor-pointer hover:bg-yellow-500 py-2 px-2 transition duration-300 ease-in-out">Experiences</li>
+      </ul>
+      <div class="flex sm:hidden flex-1 justify-end">
+        <i class="text-2xl text-white fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <!-- Navbar Section End -->
+
+    <!-- Hero Section -->
+    <section class="pt-20 sm:pt-10">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="md:text-xl text-white">Hello</h1>
+            <span class="font-bold text-yellow-500 text-4xl lg:text-5xl">I'm Afriandy</span>
+            <p class="mb-5 mt-2 text-white text-lg lg:text-2xl">Website Designer & Student</p>
+            <a href="#" class="border border-yellow-500 px-8 py-3 text-yellow-500 hover:bg-yellow-500 hover:text-white hover:border-none shadow-md transition ease-in-out duration-300">Hire Me</a>
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="mt-10">
+              <img src="/Assets/orang5.png" alt="" class="">
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section -->
+    <section class="pt-20 pb-20 bg-slate-600">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 lg:w-1/2">
+            <img src="/Assets/orang12.jpg" alt="" width="500px" height="500px">
+          </div>
+          <div class="w-full px-4 mt-3 text-white lg:w-1/2">
+            <h4 class="font-bold text-xl text-center lg:text-left">About Me</h4>
+            <p class="text-slate-400 text-sm text-center lg:text-left mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel at aut ipsum sed cupiditate eaque reprehenderit! Soluta adipisci deserunt quos ratione dignissimos sint commodi ea iure quae, animi vel consequatur!
+            </p>
+            <p class="text-slate-400 text-sm text-center lg:text-left mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi distinctio velit ea molestias non expedita minus ratione ex ut, explicabo nemo, odio possimus repudiandae consectetur.</p>
+            <p class="text-slate-400 text-sm text-center lg:text-left mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi distinctio velit ea molestias non expedita minus ratione ex ut, explicabo nemo, odio possimus repudiandae consectetur.</p>
+            <div class="flex">
+              <a href="#" class="border border-yellow-500 px-8 py-3 text-yellow-500 hover:bg-yellow-500 hover:text-white hover:border-none shadow-md transition ease-in-out duration-300 mt-3 uppercase mx-auto lg:mx-0">Hire Me</a>
+              <a href="#" class="border border-yellow-500 px-8 py-3 text-yellow-500 hover:bg-yellow-500 hover:text-white hover:border-none shadow-md transition ease-in-out duration-300 mt-3 uppercase mx-auto lg:mx-0 lg:ml-2">Download CV</a>
+            </div>
+          </div>
+          </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Services Section -->
+    <section class="pt-20 pb-20">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto max-w-xl text-center text-white">
+            <h4 class="font-bold text-xl mb-2 lg:text-2xl">Services</h4>
+            <p class="text-slate-400 text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus porro consequuntur alias, commodi nemo enim aliquam ipsam obcaecati? Assumenda, ipsam?
+            </p>
+          </div>
+
+          <div class="flex flex-wrap w-full justify-center px-4 xl:mx-auto xl:w-10/12">
+            <div class="p-4 md:w-1/2">
+              <div class="overflow-hidden rounded-md shadow-md">
+                <img src="/Assets/comp.jpg" alt="Computer" class="grayscale hover:grayscale-0 transition ease-in-out duration-200">
+              </div>
+              <h4 class="text-white text-lg">UX Research</h4>
+              <p class="text-slate-400 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, iusto! Aliquam, corporis</p>
+            </div>
+            <div class="p-4 md:w-1/2">
+              <div class="overflow-hidden rounded-md shadow-md">
+                <img src="/Assets/comp.jpg" alt="Computer" class="grayscale hover:grayscale-0 transition ease-in-out duration-200">
+              </div>
+              <h4 class="text-white text-lg">Web Development</h4>
+              <p class="text-slate-400 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, iusto! Aliquam, corporis</p>
+            </div>
+            <div class="p-4 md:w-1/2">
+              <div class="overflow-hidden rounded-md shadow-md">
+                <img src="/Assets/comp.jpg" alt="Computer" class="grayscale hover:grayscale-0 transition ease-in-out duration-200">
+              </div>
+              <h4 class="text-white text-lg">App Design</h4>
+              <p class="text-slate-400 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, iusto! Aliquam, corporis</p>
+            </div>
+            <div class="p-4 md:w-1/2">
+              <div class="overflow-hidden rounded-md shadow-md">
+                <img src="/Assets/comp.jpg" alt="Computer" class="grayscale hover:grayscale-0 transition ease-in-out duration-200">
+              </div>
+              <h4 class="text-white text-lg">Web Design</h4>
+              <p class="text-slate-400 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, iusto! Aliquam, corporis</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Later Work Section -->
+    <section class="pt-20 pb-20 bg-slate-600">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4">
+            <div class="text-white text-center">
+              <h4 class="text-xl font-bold">Latest Work</h4>
+              <p class="text-slate-400 text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus porro consequuntur alias, commodi nemo enim aliquam ipsam obcaecati? Assumenda, ipsam?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap w-full justify-center px-4 xl:mx-auto xl:w-10/12">
+          <div class="p-4 md:w-1/3">
+            <div class="overflow-hidden rounded-md shadow-md">
+              <img src="/Assets/campain.jpg" alt="Office">
+            </div>
+          </div>
+          <div class="p-4 md:w-1/3">
+            <div class="overflow-hidden rounded-md shadow-md">
+              <img src="/Assets/campain2.jpg" alt="Office">
+            </div>
+          </div>
+          <div class="p-4 md:w-1/3">
+            <div class="overflow-hidden rounded-md shadow-md">
+              <img src="/Assets/campain.jpg" alt="Office" class="bg-cover">
+            </div>
+          </div>
+          <div class="p-4 md:w-1/3">
+            <div class="overflow-hidden rounded-md shadow-md">
+              <img src="/Assets/campain4.jpg" alt="Office">
+            </div>
+          </div>
+          <div class="p-4 md:w-1/3">
+            <div class="overflow-hidden rounded-md shadow-md">
+              <img src="/Assets/campain5.jpg" alt="Office">
+            </div>
+          </div>
+          <div class="p-4 md:w-1/3">
+            <div class="overflow-hidden rounded-md shadow-md">
+              <img src="/Assets/campain6.jpg" alt="Office">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Later Work Section End -->
+
+    <!-- Experiences Section -->
+    <section class="pt-20 pb-20">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px4">
+            <h4 class="text-white font-bold text-xl mb-2">Expreriences</h4>
+            <p class="text-sm text-slate-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus porro consequuntur alias, commodi nemo enim aliquam ipsam obcaecati? Assumenda, ipsam?</p>
+          </div>
+        </div>
+        <div class="flex flex-wrap mt-2 md:items-center">
+          <div class="w-full p-4 md:p-12 border border-slate-400 md:w-1/3 hover:bg-yellow-500 group">
+            <p class="text-sm text-slate-400 group-hover:text-white">June 2020-2021</p>
+            <h4 class="text-white text-xl font-bold group-hover:text-white">UI/UX Designer</h4>
+            <p class="text-sm text-slate-400 group-hover:text-white">Microsoft</p>
+            <p class="text-slate-400 mt-3 group-hover:text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus porro consequuntur alias, commodi nemo enim aliquam ipsam obcaecati? Assumenda, ipsam?</p>
+          </div>
+          <div class="w-full p-4 md:p-12 border border-slate-400 md:w-1/3 hover:bg-yellow-500 group">
+            <p class="text-sm text-slate-400 group-hover:text-white">June 2020-2021</p>
+            <h4 class="text-white text-xl font-bold group-hover:text-white">Product Designer</h4>
+            <p class="text-sm text-slate-400 group-hover:text-white">Microsoft</p>
+            <p class="text-slate-400 mt-3 group-hover:text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus porro consequuntur alias, commodi nemo enim aliquam ipsam obcaecati? Assumenda, ipsam?</p>
+          </div>
+          <div class="w-full p-4 md:p-12 border border-slate-400 md:w-1/3 hover:bg-yellow-500 group">
+            <p class="text-sm text-slate-400 group-hover:text-white">June 2020-2021</p>
+            <h4 class="text-white text-xl font-bold group-hover:text-white">Graphic Designer</h4>
+            <p class="text-sm text-slate-400 group-hover:text-white">Microsoft</p>
+            <p class="text-slate-400 mt-3 group-hover:text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus porro consequuntur alias, commodi nemo enim aliquam ipsam obcaecati? Assumenda, ipsam?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Expreriences Section End -->
+
+    <!-- End Section -->
+    <section class="pb-10 pt-10 bg-yellow-500">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4">
+            <div class="text-white font-bold text-center">
+              <h4 class="text-xl mb-3">Have any project in mind?</h4>
+              <a href="#" class="px-6 py-2 bg-white text-slate-800 rounded-sm shadow-md">Hire Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Section -->
+
+  </body>
+</html>
